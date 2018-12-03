@@ -1,0 +1,23 @@
+img {
+    float: right;
+    
+}
+
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#time{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+}
+
+#myForm {
+    font-size: 120%;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CatTrivia!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Ready, Set, Go!</h1>
+    <div id=time>
+        You have <span id="seconds">10</span> seconds!
+
+    </div>
+    <br>
+
+    <form id="myForm">
+        <img src="https://i.pinimg.com/originals/aa/1f/98/aa1f986f8a8e40db8aad1ad32759bb93.gif">
+        <div id=p1>
+            <p>1. True or false? All cats are born with blue eyes.</p>
+            <input type="button" id="true1" value=True onclick="myFunction1T()"> <input type="button" id="false1" value=False
+                onclick="myFunction1F()">
+            <p id="answer1"></p>
+        </div>
+        <br>
+        <br>
+
+
+
+        <div id=p2>
+            <p>2. True or false? All cats are tabbies.</p>
+            <input type="button" id="true2" value=True onclick="myFunction2T()"> <input type="button" id="false2" value=False
+                onclick="myFunction2F()">
+            <p id="answer2"></p>
+        </div>
+        <br>
+        <br>
+
+        <div id=p3>
+            <p>3. What is a group of cats called?</p>
+            <input type="button" id="a" value="A. Herd" onclick="myFunctionA()">
+            <input type="button" id="b" value="B. Cluster" onclick="myFunctionB()">
+            <input type="button" id="c" value="C. Clowder" onclick="myFunctionC()">
+            <input type="button" id="d" value="D. Murder" onclick="myFunctionD()">
+
+            <p id="answer3"></p>
+        </div>
+        <br>
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/app.js"></script>
+
+</body>
+
+</html>
